@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700;800&display=swap");
+
+body {
+    font-family: 'Manrope', sans-serif;
+  }
+
+ .bg-body-tertiary{
+
+    background-color: #fff !important;
+    margin: 30px 0px;
+}
+.nvbtn{
+    background-color: #ff3b39;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 18px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute !important;
+    bottom: 30px !important;
+    top: 400px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+.carousel-control-next {
+    left: 60px !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+       
+        background-color: black;
+        padding: 20px ;
+        border-radius: 20px;
+       
+        background-size: 50%;
+}
+
+
+
+
+
+.prf{
+    border: #d0d0d1 1px dashed;
+    border-left: 0px;
+    border-right: 0px;
+   
+   
+    
+}
+.prf2{
+    margin: 50px 230px;
+}
+
+
+
+.progress-circle {
+    transform: rotate(60deg); /* Make the progress start from the top */
+  }
+  
+  .circle-bg {
+    stroke: #ffffff; /* Background color */
+  }
+  
+  .circle-progress {
+     
+    stroke-linecap: round;
+    transition: stroke-dasharray 0.5s ease;
+  }
+  
+
+  .crbd1{
+    background-image: url("./img/Rectangle\ 4.png"),
+    linear-gradient(rgba(54, 54, 54, 0.7),rgba(50, 50, 50, 0.7));
+    background-blend-mode: overlay;
+    
+
+  }
+  .crbd2{
+     background-image: url("./img/Rectangle\ 11.png"),
+     linear-gradient(rgba(54, 54, 54, 0.7),rgba(50, 50, 50, 0.7));
+     background-blend-mode: overlay;
+  }
+
+  
+
+  .crbd{
+    padding: 50px;
+     
+  }
+  .crdth{
+    background-image: url("./img/Rectangle\ 12.png"),
+    linear-gradient(rgba(54, 54, 54, 0.7),rgba(50, 50, 50, 0.7));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 30px 30px 30px;
+   
+  }
+  .crdth p{
+    padding-right: 600px;
+   
+  }
+  .card-body p{
+    margin: 30px 0px;
+  }
+ 
+  .card-body h5{
+    font-weight: 700;
+  }
+
+  .rgster{
+    background-color: #ff3b39;
+    padding: 10px 25px;
+    margin: 10px 0px;
+    color: #ffffff;
+    font-weight: 700;
+    
+  }
+  .fa-star{
+    color: #fa8907;
+    font-size: 25px;
+  }
+  .fa-eye{
+    font-size: 25px;
+    padding: 2px 2px 0px 20px;
+    
+  }
+
+  .fa-heart{
+    font-size: 25px;
+    padding: 0px 0px 10px 22px;
+  }
+
+  /* .accordion-item {
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* Optional: Remove border for the last item */
+  /* .accordion-item:last-child {
+    border-bottom: none;
+  }
+
+  /* Optional: Customize hover and focus effects for accordion buttons */
+  /* .accordion-button {
+    box-shadow: none;
+  } */
+
+  /* .accordion-button:not(.collapsed) {
+    background-color: #ffffff;
+    color: #000;
+  } */ 
+
+  .accordion-item {
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* Optional: Remove border for the last item */
+  .accordion-item:last-child {
+    border-bottom: none;
+  }
+
+  /* Optional: Customize hover and focus effects for accordion buttons */
+  .accordion-button {
+    box-shadow: none;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: #f8f9fa;
+    color: #000;
+  }
+.accordion-button{
+  font-weight: 700;
+}
+ .accordion-body{
+  padding: 25px 20px;
+ }
+
+ .form-label{
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 800;
+ }
+ .form-control{
+  line-height: 40px;
+  margin: 0px 10px;
+  background-color: #f8f8f8;
+ }
+
+ .sci{
+
+  text-align: center;  
+  background-color: #f8f8f8;
+}
+
+.ftr h4,h6{
+  color: #f8f9fa;
+}
+
+.ftr p {
+  color: #d0d0d1;
+}
+
+ 
